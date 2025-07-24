@@ -104,9 +104,18 @@ The repository includes scripts to help you analyze the results:
 
 The addition of perceptual loss leads to a significant improvement in image quality, which is reflected in the evaluation metrics.
 
-| Epoch | Avg. SSIM (Higher is better) | Avg. PSNR (Higher is better) |
-| :---: | :---: | :---: |
-|   5   |      **0.5475** |         **22.2409 dB** |
+## Results
+
+The evaluation metrics provide a quantitative comparison of the model's performance at different stages of training. The best results were achieved at epoch 15.
+
+| Epoch  | Avg. SSIM (Higher is better) | Avg. PSNR (Higher is better) |
+| :----: | :--------------------------: | :--------------------------: |
+| 5      |            0.5109            |          20.0870 dB          |
+| 10     |            0.4984            |          18.0490 dB          |
+| **15** |          **0.5717**          |        **20.7622 dB**        |
+| 20     |            0.5151            |          17.6797 dB          |
+| latest |            0.5612            |          19.5543 dB          |
+
 
 *These metrics show that the model learns to produce structurally similar and less noisy images early in the training process.*
 
