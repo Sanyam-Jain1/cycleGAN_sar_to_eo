@@ -1,4 +1,4 @@
-**Made by- Sanyam Jain(24/A06/030) and Daksh Gangwar(24/A02/073)
+**Made by- Sanyam Jain(24/A06/030) and Daksh Gangwar(24/A02/073)**
 
 # SAR-to-RGB Image Translation with an Enhanced CycleGAN
 
