@@ -1,5 +1,3 @@
-**Made by- Sanyam Jain(24/A06/030) and Daksh Gangwar(24/A02/073)**
-
 # SAR-to-RGB Image Translation with an Enhanced CycleGAN
 
 This project uses a powerful, modified CycleGAN to translate complex Synthetic Aperture Radar (SAR) images into realistic, human-viewable RGB optical images. It's built on the original PyTorch-CycleGAN-and-pix2pix framework but is enhanced with a special ingredient: **Perceptual Loss**, which helps create much more visually convincing results.
